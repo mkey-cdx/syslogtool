@@ -6,7 +6,7 @@ Placer les fichiers server.py et server.ini sur le serveur.
 Placer les fichiers client.py et client.ini sur le poste client.
 Générer un certificat ssh pour l'utilisateur qui exécutera client.py et ajouter la clé publique sur .ssh/authorized_keys du serveur.
 
-## COnfiguration
+## Configuration
 La configuration s'effectue au sein des fichiers server.ini et client.ini.
 
 ## Exécution
