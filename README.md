@@ -1,7 +1,7 @@
 # syslogtool
 Cet outil s'appuie sur un socket python pour mettre à disposition le fichier syslog, sur requête d'un client.
-Le serveur attend une requete 'GET_LOG' du client pour copier le fichier dans /var/tmp/. Une fois le fichier copié, le serveur notifie le client ('OK'), qui pourra lancer le téléchargement avec rsync. Une réponse ('KO') est envoyée si le fichier n'est pas trouvé.<br/> 
-Lorsque le téléchargement est terminé, le client notifie le serveur ('OK'), qui pourra alors nettoyer le répertoire de travail temporaire.<br/>
+Le serveur attend une requete ['GET_LOG'] du client pour copier le fichier dans /var/tmp/. Une fois le fichier copié, le serveur notifie le client ['OK'], qui pourra lancer le téléchargement avec rsync. Une réponse ['KO'] est envoyée si le fichier n'est pas trouvé.<br/> 
+Lorsque le téléchargement est terminé, le client notifie le serveur ['OK'], qui pourra alors nettoyer le répertoire de travail temporaire.<br/>
 L'utilisation de rsync permet de compresser l'envoi du fichier au travers du réseau et d'appuie sur SSH pour chiffrer la communication.
 
 ## Installation
