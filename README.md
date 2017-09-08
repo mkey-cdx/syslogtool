@@ -12,3 +12,4 @@ La configuration des composants s'effectue au sein des fichiers *server.ini* et 
 ## Exécution
 Sur le serveur, exécuter le fichier *server.py*.<br/>
 Sur le poste client, exécuter le fichier *client.py*.<br/>
+Le fichier téléchargé sera placé dans le répertoire courant.
